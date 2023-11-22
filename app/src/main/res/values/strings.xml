@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Submission_Dicoding</string>
+    <string-array name="fish_name">
+        <item>Salmon</item>
+        <item>Carp</item>
+        <item>Bass</item>
+        <item>Pike</item>
+        <item>Trout</item>
+        <item>Mahi-Mahi</item>
+        <item>Cod</item>
+        <item>Tuna</item>
+        <item>Goldfish</item>
+        <item>Swordfish</item>
+    </string-array>
+    <string-array name="fish_brief_desc">
+        <item>A popular and nutritious fish known for its distinctive pink flesh. It is often found in both freshwater and saltwater environments and is a favorite in various cuisines.</item>
+        <item>Carp are a family of freshwater fish that includes various species known for their hardiness and adaptability. They are native to Europe and Asia but have been introduced to waters worldwide. </item>
+        <item>Bass refers to various species of freshwater and saltwater fish belonging to the Perciformes order. They are known for their popularity among anglers due to their size, strength, and often challenging behavior when hooked.</item>
+        <item>Pike, short for northern pike (Esox lucius), is a predatory freshwater fish known for its aggressive behavior and distinctive appearance. Found in North America, Europe, and northern Asia, pike are often solitary and prefer clear, weedy waters such as lakes, rivers, and slow-moving streams.</item>
+        <item>Trout is a freshwater fish known for its flavorful flesh. It is often found in cold, clear streams and rivers. Rainbow trout and brown trout are two common species.</item>
+        <item>Also known as dolphinfish, mahi-mahi is a colorful fish found in tropical and subtropical waters. It has a firm texture and is popular in seafood dishes.</item>
+        <item> Cod is a versatile whitefish found in both the Atlantic and Pacific oceans. It has a mild flavor and a firm, flaky texture, making it a popular choice for various dishes.</item>
+        <item>A large and fast-swimming fish found in warm seas. Tuna is highly valued for its meat, often used in sushi and sashimi. It comes in several species, such as yellowfin and albacore.</item>
+        <item>A common aquarium fish, goldfish come in various colors and varieties. They are known for their distinctive gold or orange coloration and are often kept as pets.</item>
+        <item>A large, predatory fish with a distinctive long bill or sword-like rostrum. Swordfish are found in both temperate and tropical waters and are known for their firm and meaty texture.</item>
+    </string-array>
+</resources>
