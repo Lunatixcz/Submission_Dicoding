@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/fish_name_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fish_name_header"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fish_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fish_name"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fish_name_heading" />
+
+    <TextView
+        android:id="@+id/latin_name_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latin_name"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fish_name" />
+
+    <TextView
+        android:id="@+id/latin_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:text="@string/latin_name_content"
+        app:layout_constraintBottom_toBottomOf="@+id/latin_name_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/latin_name_header"
+        app:layout_constraintTop_toTopOf="@+id/latin_name_header" />
+
+    <TextView
+        android:id="@+id/origin_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/origin"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latin_name_header" />
+
+    <TextView
+        android:id="@+id/origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/origin_header"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/origin" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

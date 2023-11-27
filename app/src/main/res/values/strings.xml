@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Submission_Dicoding</string>
-    <string-array name="fish_name">
+    <string name="fish_name">Nama Ikan</string>
+    <string name="description">Description</string>
+    <string name="list">list</string>
+    <string name="grid">grid</string>
+    <string name="origin">Origin</string>
+    <string name="latin_name">Latin Name :</string>
+    <string name="latin_name_content">Latin name content</string>
+    <string name="fish_name_header">Fish Name</string>
+
+    <string-array name="data_name">
         <item>Salmon</item>
         <item>Carp</item>
         <item>Bass</item>
@@ -12,7 +21,8 @@
         <item>Goldfish</item>
         <item>Swordfish</item>
     </string-array>
-    <string-array name="fish_brief_desc">
+
+    <string-array name="data_desc">
         <item>A popular and nutritious fish known for its distinctive pink flesh. It is often found in both freshwater and saltwater environments and is a favorite in various cuisines.</item>
         <item>Carp are a family of freshwater fish that includes various species known for their hardiness and adaptability. They are native to Europe and Asia but have been introduced to waters worldwide. </item>
         <item>Bass refers to various species of freshwater and saltwater fish belonging to the Perciformes order. They are known for their popularity among anglers due to their size, strength, and often challenging behavior when hooked.</item>
@@ -23,5 +33,44 @@
         <item>A large and fast-swimming fish found in warm seas. Tuna is highly valued for its meat, often used in sushi and sashimi. It comes in several species, such as yellowfin and albacore.</item>
         <item>A common aquarium fish, goldfish come in various colors and varieties. They are known for their distinctive gold or orange coloration and are often kept as pets.</item>
         <item>A large, predatory fish with a distinctive long bill or sword-like rostrum. Swordfish are found in both temperate and tropical waters and are known for their firm and meaty texture.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://5.imimg.com/data5/SELLER/Default/2021/2/ZR/VF/RN/50857192/salmon-fish-1--1000x1000.jpg</item>
+        <item>https://badangling.com/wp-content/uploads/2018/06/common-carp-species.jpg</item>
+        <item>https://ksoutdoors.com/var/news/storage/images/fishing/fish/smallmouth-bass/9825-1-eng-US/SMALLMOUTH-BASS_gallery.jpg</item>
+        <item>https://nas.er.usgs.gov/XIMAGESERVERX/2009/20090415165258.jpg</item>
+        <item>https://content.osgnetworks.tv/flyfisherman/content/photos/AboutRainbowTrout-HERO-1200x800.jpg</item>
+        <item>https://5.imimg.com/data5/BK/AX/MY-46285578/mahi-mahi-fish-500x500.jpg</item>
+        <item>https://www.msc.org/images/default-source/msc-english/content-banner/fish-to-eat/cod.jpg?sfvrsn=61c97fb4_9</item>
+        <item>https://1.bp.blogspot.com/-qc-H6GsDePg/Xj09-NORQNI/AAAAAAAARGQ/hZDCP1va0RMp-8MgGx9nPNBkaEXqGk6gwCLcBGAsYHQ/s1600/Tuna%2BMata%2BBesar.png</item>
+        <item>https://i.pinimg.com/736x/c8/b2/55/c8b2557b98df7a344b40f24dc9464a19.jpg</item>
+        <item>https://www.kingsailfishmounts.com/wp-content/uploads/products/190420167693.jpg</item>
+    </string-array>
+
+    <string-array name="data_latin">
+        <item>Salmo Salar</item>
+        <item>Cyprinus carpio.</item>
+        <item>Micropterus salmoides</item>
+        <item>Esox lucius</item>
+        <item>Oncorhynchus mykiss</item>
+        <item>Coryphaena hippurus</item>
+        <item>Gadus morhua</item>
+        <item>Thunnus albacares</item>
+        <item>Carassius auratus</item>
+        <item>Xiphias gladius</item>
+    </string-array>
+
+    <string-array name="data_origin">
+        <item>Pacific salmon, such as the Chinook, coho, and sockeye, are native to the Pacific Northwest of North America. Atlantic salmon is native to the Atlantic Ocean, ranging from North America to Europe.</item>
+        <item>The common carp (Cyprinus carpio) is native to Europe and Asia.</item>
+        <item>Largemouth bass (Micropterus salmoides) are native to North America, particularly in the United States and Canada.</item>
+        <item>Northern pike (Esox lucius) is native to North America, Europe, and Asia, inhabiting freshwater lakes and rivers.</item>
+        <item>Various species of trout, such as rainbow trout (Oncorhynchus mykiss) are native to North America, Europe, and Asia.</item>
+        <item>Mahi-mahi (Coryphaena hippurus) is found in warm oceanic waters worldwide, especially in the Atlantic, Indian, and Pacific Oceans.</item>
+        <item>Atlantic cod (Gadus morhua) is native to the cold, deep waters of the North Atlantic Ocean.</item>
+        <item>Various species of tuna, such as yellowfin tuna (Thunnus albacares), are found in oceans worldwide.</item>
+        <item>The goldfish (Carassius auratus) is a domesticated version of a wild carp that is native to East Asia, specifically China.</item>
+        <item>Swordfish (Xiphias gladius) are found in both tropical and temperate waters of the Atlantic, Indian, and Pacific Oceans.</item>
     </string-array>
 </resources>
