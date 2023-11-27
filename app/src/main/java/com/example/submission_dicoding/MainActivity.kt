@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
+        menuInflater.inflate(R.menu.action_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
@@ -63,6 +63,10 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.action_grid -> {
                 rvFish.layoutManager = GridLayoutManager (this, 2)
+            }
+            R.id.about -> {
+                val intentToAbout = Intent (this@MainActivity, About::class.java)
+                startActivity(intentToAbout)
             }
         }
         return super.onOptionsItemSelected(item)
