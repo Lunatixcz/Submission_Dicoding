@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             R.id.action_grid -> {
                 rvFish.layoutManager = GridLayoutManager (this, 2)
             }
-            R.id.about -> {
+            R.id.about_page -> {
                 val intentToAbout = Intent (this@MainActivity, About::class.java)
                 startActivity(intentToAbout)
             }

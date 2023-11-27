@@ -27,6 +27,7 @@ class Detail : AppCompatActivity() {
         data?.let {
             Glide.with(this)
                 .load(it.photo)
+                .placeholder(R.drawable.brown_fish_icon_fishing_logo)
                 .into(dataImage)
             dataName.text = it.name
             dataLatin.text = it.latin

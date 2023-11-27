@@ -2,6 +2,7 @@ package com.example.submission_dicoding
 
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.text.Html
 import androidx.appcompat.app.AppCompatActivity
 
 class About : AppCompatActivity() {
@@ -11,5 +12,6 @@ class About : AppCompatActivity() {
 
         val color = resources.getColor(R.color.secondary)
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(color))
+        title = Html.fromHtml("<font color='#FFFFFF'>Fish Gallery</font>")
     }
 }
